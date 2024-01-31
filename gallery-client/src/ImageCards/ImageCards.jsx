@@ -10,7 +10,7 @@ function ImageCards({ images }: Props) {
   return (
     <div className="card-gallery">
       {images.map((image, i) => (
-        <ImageCard imagePath={image} />
+        <ImageCard key={i} imagePath={image} />
       ))}
     </div>
   );

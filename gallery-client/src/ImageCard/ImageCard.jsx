@@ -24,7 +24,7 @@ function ImageCard({ imagePath }: Props) {
           >
             <ThumbUpIcon />
           </div>
-          <p>{`Count: ${upCount}`}</p>
+          <p>{`Ups: ${upCount}`}</p>
         </div>
         <div className="reaction-container">
           <div
@@ -34,7 +34,7 @@ function ImageCard({ imagePath }: Props) {
           >
             <ThumbDownIcon />
           </div>
-          <p>{`Count: ${downCount}`}</p>
+          <p>{`Downs: ${downCount}`}</p>
         </div>
       </div>
     </div>
