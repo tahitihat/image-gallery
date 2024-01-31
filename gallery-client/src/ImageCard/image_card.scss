@@ -1,0 +1,33 @@
+.image-card {
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  
+    .card-image {
+      width: 100%;
+      height: auto;
+      max-height: 200px;
+      object-fit: cover;
+    }
+  
+    .reactions {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px;
+      background-color: hsl(81, 44%, 78%);
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .reaction-button {
+        cursor: pointer;
+
+        &:hover {
+            box-shadow: 0 5px 5px 0 rgba(35, 36, 37, 0.15);
+        }
+    }
+
+}

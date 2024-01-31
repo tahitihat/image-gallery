@@ -18,14 +18,30 @@
 - Containerized via Docker
 - Runs on any operating system
 
+## App notes and setup instructions
+
+### Frontend
+
+- React client initialized with [Create React App](https://github.com/facebook/create-react-app)
+- React Flow for light typing
+- ESlint linter
+- Icons from [Material UI](https://mui.com/material-ui/icons/)
+
+Run dev server locally:
+
+```
+cd gallery-frontend
+npm start
+```
+
 ## TODO
 
 [1 hour]
 
-- [ ] init React client (create-react-app)
-- [ ] basic React components — render photos stored in frontend
+- [x] init React client (create-react-app)
+- [x] basic React components — render photos stored in frontend
 - [ ] unit tests for React components
-- [ ] build up/down interaction locally in state
+- [x] build up/down interaction locally in state
 
 [1 hour]
 
@@ -46,3 +62,7 @@
 - [ ] Complete and polish documentation
 - [ ] Choose a fun/thematic collection of photos
 - [ ] Styling/CSS on frontend
+- [ ] Update favicon
+- [ ] Accessibility support?
+- [ ] PropTypes in React code
+- [ ] Check Flow
