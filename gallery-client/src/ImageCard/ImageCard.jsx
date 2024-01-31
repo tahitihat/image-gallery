@@ -14,7 +14,7 @@ function ImageCard({ imagePath }: Props) {
 
   return (
     <div className="image-card">
-      <img alt="" className="card-image" src={imagePath} />
+      <img alt="" className="card-image" src={`/api/get_photo/${imagePath}`} />
       <div className="reactions">
         <div className="reaction-container">
           <div

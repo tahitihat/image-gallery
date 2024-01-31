@@ -1,5 +1,7 @@
 # image-gallery
 
+ID: Adobe Take-home assignment for full stack role on Evaluation Science Team
+
 ## Project reqs
 
 ### Functional project requirements
@@ -23,7 +25,7 @@
 ### Frontend
 
 - React client initialized with [Create React App](https://github.com/facebook/create-react-app)
-- React Flow for light typing
+- Written in javascript; Flow used for light typing
 - ESlint linter
 - Icons from [Material UI](https://mui.com/material-ui/icons/)
 
@@ -63,26 +65,15 @@ python image-server.py
 - [x] basic React components — render photos stored in frontend
 - [x] unit tests for React components
 - [x] build up/down interaction locally in state
-
-[1 hour]
-
-- [x] init Flask API
-- [x] implement /get_photos
-- [ ] Extra time: implement /up_photo, /down_photo endpoints and store likes in SQLite
-
-[1 hour]
-
-- [ ] Containerize client
-- [ ] Containerize server
-- [ ] client-server communication in docker containers
-- [ ] "Productionize" build to whatever extent time allows
-
-[1 hour]
-
-- [ ] Complete and polish documentation
 - [x] Choose a fun/thematic collection of photos
-- [ ] Styling/CSS on frontend
-- [ ] Update favicon
-- [ ] Accessibility support?
-- [ ] PropTypes in React code
+- [x] init Flask API
+- [x] implement /get_photos endpoint
+- [x] Complete and polish documentation
+
+Remaining task list — would have implemented with additional time (ranked in priority order):
+
 - [ ] Render fallback if image fails to load
+- [ ] implement /up_photo, /down_photo endpoints and persist up/down likes in SQLite
+- [ ] Better styling/CSS on frontend
+- [ ] Add accessibility support to frontend (a11y)
+- [ ] Productionize Flask server with WSGI
