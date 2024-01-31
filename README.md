@@ -45,6 +45,7 @@ npm test
 
 - Python Flask REST API
 - Images simply stored on disk/in backend filesystem
+- Tree assets downloaded from [Unsplash](https://unsplash.com/s/photos/trees)
 
 Run dev server locally:
 
@@ -66,7 +67,7 @@ python image-server.py
 [1 hour]
 
 - [x] init Flask API
-- [ ] implement /get_photos
+- [x] implement /get_photos
 - [ ] Extra time: implement /up_photo, /down_photo endpoints and store likes in SQLite
 
 [1 hour]
@@ -79,7 +80,7 @@ python image-server.py
 [1 hour]
 
 - [ ] Complete and polish documentation
-- [ ] Choose a fun/thematic collection of photos
+- [x] Choose a fun/thematic collection of photos
 - [ ] Styling/CSS on frontend
 - [ ] Update favicon
 - [ ] Accessibility support?
