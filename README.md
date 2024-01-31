@@ -34,13 +34,18 @@ cd gallery-frontend
 npm start
 ```
 
-## TODO
+Run [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) unit tests locally:
 
-[1 hour]
+```
+cd gallery-frontend
+npm test
+```
+
+## TODO
 
 - [x] init React client (create-react-app)
 - [x] basic React components — render photos stored in frontend
-- [ ] unit tests for React components
+- [x] unit tests for React components
 - [x] build up/down interaction locally in state
 
 [1 hour]
@@ -65,4 +70,4 @@ npm start
 - [ ] Update favicon
 - [ ] Accessibility support?
 - [ ] PropTypes in React code
-- [ ] Check Flow
+- [ ] Render fallback if image fails to load
