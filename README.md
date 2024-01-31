@@ -39,6 +39,7 @@
 - [ ] Containerize client
 - [ ] Containerize server
 - [ ] client-server communication in docker containers
+- [ ] "Productionize" build to whatever extent time allows
 
 [1 hour]
 
