@@ -30,15 +30,30 @@
 Run dev server locally:
 
 ```
-cd gallery-frontend
+cd gallery-client
 npm start
 ```
 
 Run [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) unit tests locally:
 
 ```
-cd gallery-frontend
+cd gallery-client
 npm test
+```
+
+### Backend
+
+- Python Flask REST API
+- Images simply stored on disk/in backend filesystem
+
+Run dev server locally:
+
+```
+cd gallery-server
+python -m venv venv
+source venv/bin/activate
+pip install flask
+python image-server.py
 ```
 
 ## TODO
@@ -50,10 +65,9 @@ npm test
 
 [1 hour]
 
-- [ ] init Flask API
-- [ ] implement /get_photos, /up_photo, /down_photo
-- [ ] unit test /get_photos, /up_photo, /down_photo
-- [ ] SQLite photo db?
+- [x] init Flask API
+- [ ] implement /get_photos
+- [ ] Extra time: implement /up_photo, /down_photo endpoints and store likes in SQLite
 
 [1 hour]
 
