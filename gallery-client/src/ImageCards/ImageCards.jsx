@@ -1,6 +1,7 @@
 // @flow
 import * as React from "react";
 import ImageCard from "../ImageCard/ImageCard";
+import "./image_cards.scss";
 
 type Props = {
   images: Array<string>,
