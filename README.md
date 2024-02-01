@@ -2,6 +2,8 @@
 
 ID: Adobe Take-home assignment for full stack role on Evaluation Science Team
 
+<img width="1679" alt="Screenshot 2024-01-31 at 15 58 53" src="https://github.com/tahitihat/image-gallery/assets/20799737/1ec661d5-6c3c-4454-980b-d7eddb19f777">
+
 ## Project reqs
 
 ### Functional project requirements
