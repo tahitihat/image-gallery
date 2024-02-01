@@ -12,6 +12,8 @@ ID: Adobe Take-home assignment for full stack role on Evaluation Science Team
 - Apply thumbs-up to single image (any number of times)
 - Apply thumbs-down to single image (any number of times)
 
+Note: I made the assumption that the content and quantity of displayed images is unrestricted in this assignment, i.e. can be selected randomly. 🌲
+
 ### Nonfunctional project requirements
 
 - React frontend
@@ -22,19 +24,18 @@ ID: Adobe Take-home assignment for full stack role on Evaluation Science Team
 
 ## App notes and setup instructions
 
+To run the app via docker, execute the following in project root:
+
+```
+ docker-compose up --build
+```
+
 ### Frontend
 
 - React client initialized with [Create React App](https://github.com/facebook/create-react-app)
 - Written in javascript; Flow used for light typing
 - ESlint linter
 - Icons from [Material UI](https://mui.com/material-ui/icons/)
-
-Run dev server locally:
-
-```
-cd gallery-client
-npm start
-```
 
 Run [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) unit tests locally:
 
@@ -48,16 +49,6 @@ npm test
 - Python Flask REST API
 - Images simply stored on disk/in backend filesystem
 - Tree assets downloaded from [Unsplash](https://unsplash.com/s/photos/trees)
-
-Run dev server locally:
-
-```
-cd gallery-server
-python -m venv venv
-source venv/bin/activate
-pip install flask
-python image-server.py
-```
 
 ## TODO
 

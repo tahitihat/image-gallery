@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  gallery-client:
+    build:
+      context: ./gallery-client
+    ports:
+      - "3000:3000"
+    depends_on:
+      - gallery-server
+
+  gallery-server:
+    build:
+      context: ./gallery-server
+    ports:
+      - "5000:5000"

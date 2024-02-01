@@ -1,10 +1,12 @@
 import os
 from flask import Flask, jsonify, send_file
+from flask_cors import CORS
 
 IMAGE_DIR = "tree-assets"
 
 # Initialize Flask app
 app = Flask(__name__)
+CORS(app)
 
 
 @app.route("/api/get_photo/<filename>", methods=["GET"])
